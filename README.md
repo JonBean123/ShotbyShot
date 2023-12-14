@@ -5,7 +5,11 @@ In the game of basketball two teams compete head to head to determine which team
 Since we are predicting if a basketball shot is a miss or a make, this is a classification problem therefore I used different classification models to accomplish this goal. Below are the models I used along with the hyperparameters gathered through using a randomized grid search:
 
 Logistic Regression:{Penalty: L1, Solver: Saga, Max_iter: 10000, C: 0.001}
+
+
 Decision Tree: {Max_leaf_nodes: 20, Max_features: log2, Criterion: log_loss, Ccp_alpha: 0.001}
+
+
 XGBoost: {N_estimators: 500, Max_leaves: 1, Learning_rate: 0.1}
 
 ## Results
