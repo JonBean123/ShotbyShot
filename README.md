@@ -22,20 +22,52 @@ After using Logistic Regresion, Decision Trees, and an XGBoost model, I found th
 
 ### Variable Appendix:
 SHOT_DISTANCE: Distance of player to basket
+
+
 LOC_X: Players x-position on the court ranging from -25 to 25
+
+
 LOC_Y: Players y-position on the court ranging from 0 to 50
+
+
 MINS_LEFT: Minutes left in the quarter
+
+
 SECS_LEFT: Second left in the quarter
+
+
 SHOT_TYPE: Type of shot (Either 2pt or 3pt)
+
+
 BASIC_ZONE: Zone on court where shot was taken
+
+
 ZONE_RANGE: Distance from the basket of zone
+
+
 ACTION_TYPE: Description of shot (dunk, layup, finger roll,..etc)
+
+
 MP: Minutes Played
+
+
 FG%: Percentage of all shots (excluding free throws) that a player has made on the given season 
+
+
 3P%: Percentage of three-point shots a player has made on the given season
+
+
 2P%: Percentage of two-point shots (inside the three-point line) a player has made on the given season
+
+
 eFG%: A players effective field goal percentage which gives different weights to a players 3P% and 2P% as a three-point shot is intrinsically more difficult to make. 
+
+
 eFG% Formula: 2P% + 1.5*3P%
+
+
 SHOT_ACTION: High level description of the shot (driving finger roll shot, tip dunk shot, etc..)
+
+
 
 
